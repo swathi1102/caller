@@ -9,5 +9,5 @@ jobs:
     steps:
       - name: output
         run: |
-          echo "helllo world!"
+          echo "hello world!"
 
