@@ -1,0 +1,13 @@
+name: caller-workflow
+# Trigger condition can be update per your preference
+on:
+  workflow_call:
+
+jobs:
+  caller-workflow:
+    runs-on: ubuntu-latest 
+    steps:
+      - name: output
+        run: |
+          echo "helllo world!"
+
