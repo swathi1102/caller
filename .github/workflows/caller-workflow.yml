@@ -2,6 +2,8 @@ name: caller-workflow
 # Trigger condition can be update per your preference
 on:
   workflow_call:
+  push:
+  pull_request:
 
 jobs:
   caller-workflow:
